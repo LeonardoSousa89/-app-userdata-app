@@ -1,0 +1,43 @@
+             comandos emmet utilizando bootstrap 5
+
+URL: https://getbootstrap.com/docs/5.1/utilities/spacing/
+URL:https://getbootstrap.com/docs/5.1/utilities/colors/
+
+----------------------------------------------------------
+ /*cria uma div com atributo de classe de nome container e
+  id de nome container*/
+ 
+ .container[id="container"]
+----------------------------------------------------------
+ /*cria uma propriedade de margin zero  
+   e padding eixo y = 5
+ */
+ m-0.py-5
+-----------------------------------------------------------
+  
+comando combo-1: .container[id="container"].m-0.py-5
+
+-----------------------------------------------------------
+/*cria um background de cor azul*/
+bg-primary
+-----------------------------------------------------------
+
+comando combo-2: .container[id="container"].m-0.py-5.bg-danger
+
+-----------------------------------------------------------
+
+comando combo-3: .container[id="container"].bg-danger
+
+-----------------------------------------------------------
+/*cria uma div com atributo de classe de nome container
+  e id container inserindo fundo vermelho e texto branco
+  claro 
+*/
+.container[id="container"].bg-danger.text-light
+-----------------------------------------------------------
+/*cria uma div com atributo de classe de nome username
+  e id username inserindo fundo amarelo, margem=5 
+  e padding=3  
+*/
+ .username[id="iusername"].bg-warning.m-5.p-3
+ -----------------------------------------------------------
